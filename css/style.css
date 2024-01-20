@@ -1,0 +1,537 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+}
+/* Start NAV */
+.continer {
+    width: 100%;
+    height: 80px;
+    background-color: rgba(132, 96, 246);
+    /* position: fixed; */
+    z-index: -3;
+}
+.continer_logo {
+    width: 30%;
+    padding: 30px 0 0 90px;
+    float: left;
+}
+.continer_list {
+    float: right;
+    width: 40%;
+    height: 50%;
+    padding-top: 15px;
+}
+.continer_list li {
+    list-style-type: none;
+    display: inline-block;
+}
+.continer_list li a {
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 35px 35px ;
+    transition: all 0.3s ease 0s;
+}
+.continer_list li a:hover {
+    color: #f3487f;
+}
+/* End NAV */
+
+/* Start Header */
+header {
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.background_over_layout {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: rgba(132, 96, 246, 0.8);
+}
+.child_over {
+    position: absolute;
+    top: 23%;
+    left: 23%;
+    z-index: 2;
+    width: 700px;
+    height: 350px;
+    color: white;
+    text-align: center;
+}
+.child_over h1 {
+    font-size: 60px;
+    font-weight: 100;
+}
+.child_over p {
+    margin-bottom: 60px;
+    font-size: 16px;
+}
+.child_over button {
+    color: white;
+    background-color:  rgba(132, 96, 246);
+    padding: 12px 45px;
+    border: none;
+    border-radius: 30px;
+    border: 1px solid white;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+.child_over button:hover {
+    color: rgba(132, 96, 246);
+    background-color: white;
+}
+/* End Header */
+
+/* Start Glorious History */
+.History {
+    background-color: #f2f5f7;
+    width: 100%;
+    height: 670px;
+}
+.continer_history {
+    margin: auto;
+    width: 85%;
+    height: 100%;
+}
+.History_head {
+    margin: auto;
+    padding-top: 30px;
+    width: 50%;
+    height: 230px;
+    text-align: center;
+}
+.History_head h1 {
+    font-size: 30px;
+    color: rgb(34, 34, 34);
+}
+.History_head p {
+    color: rgb(119, 119, 119);
+    font-size: 16px;
+}
+.History_bottom {
+    background-color: white;
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+.History_img {
+    float: inline-start;
+    width: 35%;
+    height: 100%;
+}
+.History_img img {
+    position: relative;
+    left: 30px;
+    bottom: 30px;
+}
+.bottom_left {
+    float: inline-end;
+    width: 55%;
+    height: 100%;
+}
+.bottom_left button {
+    position: relative;
+    top:30px ;
+    border: none;
+    padding: 0px 35px;
+    border-radius: 50px;
+    line-height: 40px;
+    border: 1px solid #eee;
+    align-items: center;
+    margin-right: 10px;
+    background-color: #fff;
+
+}
+.bottom_left button:hover {
+    background-color: #8460f6;
+    color: #fff;
+}
+.bottom_left h1 {
+    padding-top: 30px;
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    font-weight: 500;
+}
+.bottom_left p {
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+/* End Glorious History */
+
+/* Start SECtion_Skills */
+.Skills {
+    width: 100%;
+    height: 500px;
+    margin-top: 190px;
+    background-color: #f3487f;
+}
+.Skills_child {
+    width: 85%;
+    height: 100%;
+    margin: auto;
+    background-color: #8460f6;
+}
+.child_skill {
+    background-color: rgb(111, 117, 152);
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+.child_skill_up {
+    width: 100%;
+    height: 50%;
+    margin-top: 0;
+    float: left;
+    position: relative;
+    background-color: #fff;
+    color: #222222;
+}
+.child_skill_up:hover {
+    color: #fff;
+    background-color: #f3487f;
+}
+.child_skill_up h1 {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+.child_skill_down {
+    background-color: rgb(111, 117, 152);
+    color: #fff;
+    width: 100%;
+    height: 50%;
+    float: left;
+}
+.child_skill_down p {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5em;
+    text-align: center;
+}
+/* End SECtion_Skills */
+
+/*Start Beautiful Experiences*/
+.Beautiful {
+    width: 100%;
+    height: 650px;
+}
+.head_Beautiful {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    margin-top: 60px;
+}
+.head_Beautiful h1 {
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    font-weight: 500;
+}
+.head_Beautiful p {
+    width: 50%;
+    margin: auto;
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5em;
+    font-size: 16px;
+}
+.sec_Beautiful {
+    width: 90%;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sec_B_left {
+    width: 53%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+.sec_B_right {
+    width: 40%;
+    height: 100%;
+}
+.sec_B_right h1 {
+    font-weight: 600;
+    color: #222222;
+    font-size: 30px;
+}
+.sec_B_right h4 {
+    font-size: 18px;
+    line-height: 1.5em;
+    color: #222222;
+}
+.sec_B_right p {
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+.sec_B_right a button {
+    color: #8460f6;
+    background-color: white;
+    padding: 0px 30px;
+    border: 1px solid  #f7f6f6;
+    border-radius: 50px;
+    line-height: 40px;
+    font-weight: 600;
+    transition: all 0.3s ease 0s;
+}
+.sec_B_right a button:hover {
+    color: white;
+    background-color: #8460f6;
+}
+/*End Beautiful Experiences*/
+
+/*Start Some Projects*/
+.Some_Projects {
+    background-color: rgb(93, 209, 227);
+    width: 100%;
+    height: 700px ;
+}
+.Some_Projects_head {
+    width: 40%;
+    height: 210px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+}
+.Some_Projects_head h1 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.5em;
+}
+.Some_Projects_head p {
+    font-weight: 300;
+    line-height: 1.5em;
+    font-size: 16px;
+}
+.Some_Projects_buttom {
+    width: 90%;
+    height: 320px;
+    margin: auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.Some_P_left {
+    width: 65%;
+    height: 100%;
+    background-image: url(../img/c1.jpg);
+    background-size: cover;
+}
+.Some_P_right {
+    width: 35%;
+    height: 100%;
+}
+.Some_P_right_Small {
+    width: 80%;
+    height: 70%;
+    margin: auto;
+}
+.Some_P_right h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #222222;
+    line-height: 1.5em;
+    margin: 60px 35px;
+}
+.Some_P_right p {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5em; 
+    margin: 10px 35px;  
+}
+/*End Some Projects*/
+
+/* Start Keep Touch */
+.Keep_Touch {
+    width: 100%;
+    height: 550px;
+}
+.Keep_Touch_head {
+    width: 45%;
+    height: 130px;
+    text-align: center;
+    margin: auto;
+    margin-top: 60px;
+}
+.Keep_Touch_form {
+    width: 70%;
+    height: 350px ;
+    margin: auto;
+}
+.form_i {
+    border: 1px solid #d4d5e0;
+    line-height: 48px;
+    width: 100%;
+    padding: 0 25px;
+    color: #777777;
+    margin-top: 10px;
+}
+.form_b {
+    border: 1px solid #d4d5e0;
+    width: 100%;
+    display: block;
+    background: transparent;
+    padding: 15px 25px;
+    color: #777777;
+    height: 150px;
+    resize: none;
+    margin-top: 10px;
+}
+.Keep_buttom {
+    width: 30%;
+    height: 60px;
+    float: right;
+    margin-bottom: 60px;
+}
+.Keep_buttom a button {
+    border: 1px solid ;
+    padding: 10px 30px;
+    border-radius: 50px;
+    background-color: white;
+    color: #8460f6;
+    transition: all 0.3s ease 0s;
+}
+.Keep_buttom a button:hover {
+    color: white;
+    background-color: #8460f6;
+}
+/* end Keep Touch */
+
+/* Start Together */
+.Together {
+    margin-top: 50px;
+    width: 100%;
+    height: 350px;
+    color: white;
+    background-color: #f9c400;
+    text-align: center;
+}
+.Together_up {
+    padding-top: 60px;
+}
+.Together h1 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.5em;
+}
+.Together_down {
+    width: 50%;
+    margin: auto;
+    padding-top: 30px;
+}
+.Together_down input {
+    padding: 10px 100px;
+    border-radius: 50px;
+    border: none;
+    float: left;
+}
+.Together_down button {
+    padding: 10px 60px;
+    border-radius: 50px;
+    border: none;
+    float: right;
+    background-color: white;
+    color: #8460f6
+}
+.Together_down button:hover {
+    color: white;
+    background-color: #8460f6;
+    transition: all 0.3s ease 0s;
+}
+/* End Together */
+
+/* Start Footer */
+footer {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(78, 83, 117);
+    padding-top: 30px;
+}
+.Footer_left {
+    float: left;
+    width: 65%;
+    height: 60%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Footer_small_left {
+    width: 25%;
+    height: 100%;
+}
+.Footer_small_left ul li h6 {
+    font-weight: 500;
+    font-size: 14px;
+}
+.Footer_small_left ul a {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5em;
+    text-decoration: none;
+    color: white;
+}
+.Footer_small_left ul a:hover {
+    color: #8460f6;
+    transition: all 0.3s ease 0s;
+}
+.Footer_small_left ul li {
+    list-style-type: none;
+}
+.Footer_right {
+    width: 30%;
+    height: 80%;
+    float: right;
+    color: white;
+}
+.Footer_right ul li h6 {
+    font-weight: 500;
+    font-size: 14px;
+}
+.Footer_right ul li {
+    list-style-type: none;
+}
+.Footer_right ul li img {
+    float: left;
+    padding: 5px 20px 5px 5px;
+}
+.Copyright_f {
+    text-align: center;
+    color: white;
+}
+/* End Footer */
